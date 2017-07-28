@@ -1,0 +1,116 @@
+@charset "UTF-8";
+html,body{
+    margin:0;
+    padding:0;
+    font-family: '微软雅黑';
+}
+.box{
+    width:40%;
+    margin:20px auto;
+    border:1px solid #f00;
+    padding:30px;
+}
+/* 下拉输入框 */
+.inputSelect{
+    width:300px;
+    height:30px;
+    line-height: 30px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    padding:0 50px 0 5px;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+}
+/* 向下箭头  */
+.arrow-down{
+    width:0;
+    height:0;
+    border-top:10px solid #545454;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    position: relative;
+    top:20px;
+    left:326px;
+}
+/* 向上箭头 */
+.arrow-up{
+    width:0;
+    height:0;
+    border-bottom:10px solid #545454;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    position: relative;
+    top:-10px;
+    left:326px;
+}
+/* 向右箭头 */
+.arrow-right{
+    width:0;
+    height:0;
+    border:10px solid transparent;
+    border-left-color: #ff0000;
+    position: relative;
+    display: block;
+}
+
+/* 下拉框 */
+.drop-down{
+    width:315px;
+    border:1px solid #ddd;
+    border-radius: 4px;
+    display: none;
+}
+.block{
+    display: block;
+}
+.drop-down li{
+    list-style: none;
+    width:100%;
+    line-height: 28px;
+    cursor: pointer;
+    margin-left:-40px;
+}
+
+/* 下拉菜单向下箭头 */
+.li-down{
+    width:0;
+    height:0;
+    border-top:6px solid #545454;
+    border-left:6px solid transparent;
+    border-right:6px solid transparent;
+    position: relative;
+    top:14px;
+    left:256px;
+}
+/*　下拉菜单向上箭头　*/
+.li-up{
+    width:0;
+    height:0;
+    border-bottom:6px solid #545454;
+    border-left:6px solid transparent;
+    border-right:6px solid transparent;
+    position: relative;
+    top:-13px;
+    left:256px;
+}
+
+.li_box{
+    margin-left:30px;
+    border:1px solid greenyellow;
+}
+
+.check{
+    width:15px;
+    height:15px;
+    border:1px solid #ddd;
+    border-radius: 4px;
+}
+
+/*.input{
+    border:1px solid dodgerblue;
+    width:300px;
+    height:30px;
+}*/
